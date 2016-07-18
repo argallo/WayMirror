@@ -15,7 +15,7 @@ import static java.lang.Thread.sleep;
  */
 public class NewsModule extends Module {
 
-    private static String newsID = "https://api.nytimes.com/svc/topstories/v1/home.json?api-key=1427ff4116c54cce89cf7ab08ada3ed1";
+    private static String newsID = "https://api.nytimes.com/svc/topstories/v1/home.json?api-key=EnterKeyHere";
     private static ArrayList<String> headlines;
 
     private JLabel headlineLabel;

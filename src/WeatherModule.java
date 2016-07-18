@@ -52,7 +52,7 @@ public class WeatherModule extends Module {
     private static int[] weatherImagePosition = new int[]{1, 7, 13, 18, 16, 17, 15, 22, 12, 2, 13, 30, 31, 33, 34, 32, 38, 35};
 
     //TODO: get from configfile
-    private static final String API_KEY = "4d337abf03a75e0c1ba4cef3d984c62a";
+    private static final String API_KEY = "EnterAPI_KEY";
     private static final String CITY = "Boston";
     private static String WeatherCall = "http://api.openweathermap.org/data/2.5/weather?q="+CITY+"&APPID="+API_KEY+"&mode=xml";
     //private static final String WeatherCall = "http://api.openweathermap.org/data/2.5/weather?q=Boston&APPID=4d337abf03a75e0c1ba4cef3d984c62a&mode=xml";
