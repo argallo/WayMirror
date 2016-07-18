@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JMirror:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JMirror_jar</output-path>
+    <root id="archive" name="JMirror.jar">
+      <element id="module-output" name="WayMirror" />
+    </root>
+  </artifact>
+</component>
